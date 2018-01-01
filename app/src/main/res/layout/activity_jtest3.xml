@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jtest3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.group.mitrc.Jtest3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Which of the following is used to interpret and execute java aplet classes hosted by HTML?"
+        android:id="@+id/tw4"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tw4"
+        android:id="@+id/ro4">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplet show"
+            android:id="@+id/ra13"
+            android:layout_below="@id/ro4"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplet viewer"
+            android:id="@+id/ra14"
+            android:layout_below="@id/ra13"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplet Watcher"
+            android:id="@+id/ra15"
+            android:layout_below="@id/ra14"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplet Screen"
+            android:id="@+id/ra16"
+            android:layout_below="@id/ra15"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sun4"
+                android:id="@+id/bnn4"
+                android:text="Next"
+                android:layout_marginTop="80dp"
+                />
+
+        </RelativeLayout>
+    </RadioGroup>
+
+</RelativeLayout>

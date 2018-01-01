@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_atest3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.group.mitrc.Atest3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. What was google main business motivation for supporting android?"
+        android:id="@+id/ti4"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ti4"
+        android:id="@+id/roo4">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To level the playing field for mobile devicies"
+            android:id="@+id/raa13"
+            android:layout_below="@id/roo4"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To directly compete with the iphone"
+            android:id="@+id/raa14"
+            android:layout_below="@id/raa13"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To corner the mobile device app market for licenseing purpose"
+            android:id="@+id/raa15"
+            android:layout_below="@id/raa14"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To allow them advertize more"
+            android:id="@+id/raa16"
+            android:layout_below="@id/raa15"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="gun4"
+                android:id="@+id/btnn4"
+                android:text="Next"
+                android:layout_marginTop="80dp"
+                />
+
+        </RelativeLayout>
+    </RadioGroup>
+
+</RelativeLayout>

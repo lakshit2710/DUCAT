@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.group.mitrc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cetpa_icon"
+        android:label="CETPA"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tutorial" />
+        <activity android:name=".C" />
+        <activity android:name=".Java" />
+        <activity android:name=".Android" />
+        <activity android:name=".Php" />
+        <activity android:name=".Fees" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".Certification" />
+        <activity android:name=".Test" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Location" />
+        <activity android:name=".Facebook" />
+        <activity android:name=".Cfees" />
+        <activity android:name=".Cplusfees" />
+        <activity android:name=".Javafees" />
+        <activity android:name=".Androidfees" />
+        <activity android:name=".Phpfees" />
+        <activity android:name=".Ctest" />
+        <activity android:name=".Ctest1" />
+        <activity android:name=".Ctest2" />
+        <activity android:name=".Ctest3" />
+        <activity android:name=".Ctest4" />
+        <activity android:name=".Cptest" />
+        <activity android:name=".Cptest1" />
+        <activity android:name=".Cptest2" />
+        <activity android:name=".Cptest3" />
+        <activity android:name=".Cptest4" />
+        <activity android:name=".Ptest" />
+        <activity android:name=".Ptest1" />
+        <activity android:name=".Ptest4" />
+        <activity android:name=".Jtest" />
+        <activity android:name=".Jtest1" />
+        <activity android:name=".Jtest2" />
+        <activity android:name=".Jtest3" />
+        <activity android:name=".Jtest4" />
+        <activity android:name=".Atest" />
+        <activity android:name=".Atest1" />
+        <activity android:name=".Atest2" />
+        <activity android:name=".Atest3" />
+        <activity android:name=".Atest4" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Contactus" />
+        <activity android:name=".GV1" />
+        <activity android:name=".Cpp" />
+        <activity android:name=".Aboutus" />
+        <activity android:name=".Gv2" />
+        <activity android:name=".GV3" />
+        <activity android:name=".GV4" />
+        <activity android:name=".GV5" />
+        <activity android:name=".GV6" />
+        <activity android:name=".GV7" />
+        <activity android:name=".GV8" />
+        <activity android:name=".GV9"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ab2"
+    tools:context="com.example.group.mitrc.Aboutus">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:text="CETPA, the Composition of Computer Education and Technology Promotion Association believes in quality not in quantity BECAUSE KNOWLEDGE MATTERS. "
+        android:textColor="#000"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:text="Training -"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:text="CETPA is no 1 in the field of Software and Embedded Training programs for engineering and other students."
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:text="Consultancy -"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="CETPA provides job consultancy to the CETPA certified students."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:text="Development -"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="CETPA development deals in software as well as embedded production development."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:text="Brief Description about CETPA :-"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="CETPA INFOTECH PVT LTD is the leader in the “specialized training” brands of India certified by ISO 9001:2008 for its best quality. CETPA INFOTECH is the largest training service provider in various engineering domains for all engineering students as well as for the working professionals. It has an extensive experience of nurturing over 200000+ students in the past few years.
+
+CETPA has been awarded as the “Best IT and Embedded Training Company” for 5 consecutive years for delivering high quality training and workshops at more than 500 colleges across India. CETPA is a trustworthy brand in Education and Training industry with its presence across several cities such as Noida, Roorkee, Lucknow, Dehradun and Meerut. The company was started 12 years back and it is continuously expanding having its overseas branches in Germany and Ukraine.
+
+CETPA has specialization in 3 important domains namely: TRAINING, DEVELOPMENT and CONSULTANCY. The company provides specialized training in 50+ leading technologies like .NET, Java, PHP, Ethical Hacking, ANDROID, CCNA, AUTOCAD, VHDL, MATLAB, EMBEDDED SYSTEM, HVAC and many more. CETPA has a very committed team consisting of technical trainers who are continuously guiding, mentoring, admonish and coaching the students by providing them with exclusive personalized attention, which helps them to develop solid industry oriented knowledge.
+
+Getting a post is as difficult as defeat the crew because being in the associate world need a lot from the candidate because of which the candidates are putting their perfect effort, which results process of hardship level. Student can see each business is connect but resolve this problem is either consuming years to reach to a crave place or come to CETPA. CETPA gives the entire essential computer training which helps the beginner and the experienced employees so that they can have better identification in this competitive globe.
+
+Like other academic and training company, at CETPA learner will be offer assortments programs but the trainers differs and make CETPA stand out from leftovers. CETPA has variety of knowledgeable and experienced trainers whose accession is different which learners can see everywhere. CETPA try its level best to boost their trainee’s capability so that they stand out from others and whatever they grant to the corporate world inevitably becomes fruitful. Not only the fresher but also the professionals who are not adequate to deal with the upcoming technology and software are also helped here. CETPA try its aligned best to convey its services to every edge of the globe with the help of tailored education. CETPA’s motto is to distribute the best utility to student and professionals and that is why CETPA have taken the personalized approach because CETPA does not want learners to adjust with their education.
+
+It is not mandatory that professionals have to leave their post in order to join CETPA. Students and professionals can contact CETPA team and can get the best outcome whenever they get time to clarify their doubts. The company has a very strong placement and consultancy wing which has good network with the top MNCs of the corporate world. CETPA core competencies include effective personalized industry based training and excellent placements. CETPA believe in the philosophy that “Action with Vision can make a positive difference”. Therefore join CETPA and feel the positive difference.
+DO YOU WANT TO REGIS"/>
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+

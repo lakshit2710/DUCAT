@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gallery"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.group.mitrc.Gallery">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gv"
+        android:columnWidth="30dp"
+       android:numColumns="3"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="30dp"
+        android:scrollbars="horizontal">
+        ></GridView>
+
+</RelativeLayout>
